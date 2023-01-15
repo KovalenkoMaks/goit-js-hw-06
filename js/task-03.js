@@ -14,7 +14,6 @@ const images = [
 ];
 const imagesEl = images
   .map((image) => {
-    console.log(image.alt);
     return `<li><img class= image src= ${image.url} alt='${image.alt}' width= 340px></img>
   </li>`;
   })
